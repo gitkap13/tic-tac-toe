@@ -1,0 +1,29 @@
+* {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.scoreboard {
+    height: 10vh;
+    width: 30vh;
+    grid-auto-flow: column;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
+}
+.grid {
+    height: 50vh;
+    width: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid > div {
+    height: 100%;
+    width: 100%;
+    border: 2px black;
+    border-style: solid;
+}
+
+.reset {
+    margin-top: 1rem;
+}
